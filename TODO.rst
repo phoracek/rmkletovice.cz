@@ -1,4 +1,3 @@
-- cleanup pelicanconf
 - create base.html template and import bootstrap
   - add bootstrap
   - base.html with imports
