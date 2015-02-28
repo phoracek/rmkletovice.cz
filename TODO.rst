@@ -1,0 +1,10 @@
+- cleanup pelicanconf
+- create base.html template and import bootstrap
+  - add bootstrap
+  - base.html with imports
+  - base.html template
+- improve index
+- improve articles list and create sample article
+- improve page
+- create action info template and improve sample article
+- add plugins and create gallery templates
