@@ -1,5 +1,4 @@
 - create base.html template and import bootstrap
-  - add bootstrap
   - base.html with imports
   - base.html template
 - improve index

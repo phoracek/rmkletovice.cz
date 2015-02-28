@@ -1,0 +1,53 @@
+diff --git a/less/variables.less b/less/variables.less
+index 002be6a..47fd783 100644
+--- a/less/variables.less
++++ b/less/variables.less
+@@ -52,8 +52,8 @@
+ @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+ @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+ 
+-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
++@font-size-h1:            floor((@font-size-base * 2.2)); // ~36px
++@font-size-h2:            floor((@font-size-base * 2.0)); // ~30px
+ @font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+ @font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
+ @font-size-h5:            @font-size-base;
+@@ -333,12 +333,12 @@
+ @container-sm:                 @container-tablet;
+ 
+ // Medium screen / desktop
+-@container-desktop:            (940px + @grid-gutter-width);
++@container-desktop:            (840px + @grid-gutter-width);
+ //** For `@screen-md-min` and up.
+ @container-md:                 @container-desktop;
+ 
+ // Large screen / wide desktop
+-@container-large-desktop:      (1140px + @grid-gutter-width);
++@container-large-desktop:      @container-desktop;
+ //** For `@screen-lg-min` and up.
+ @container-lg:                 @container-large-desktop;
+ 
+@@ -348,7 +348,7 @@
+ //##
+ 
+ // Basics of a navbar
+-@navbar-height:                    50px;
++@navbar-height:                    60px;
+ @navbar-margin-bottom:             @line-height-computed;
+ @navbar-border-radius:             @border-radius-base;
+ @navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
+@@ -382,11 +382,11 @@
+ // Inverted navbar
+ // Reset inverted navbar basics
+ @navbar-inverse-color:                      lighten(@gray-light, 15%);
+-@navbar-inverse-bg:                         #222;
++@navbar-inverse-bg:                         rgba(22, 22, 22, 0.9);  // #222;
+ @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+ 
+ // Inverted navbar links
+-@navbar-inverse-link-color:                 lighten(@gray-light, 15%);
++@navbar-inverse-link-color:                 lighten(@gray-light, 30%);
+ @navbar-inverse-link-hover-color:           #fff;
+ @navbar-inverse-link-hover-bg:              transparent;
+ @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
