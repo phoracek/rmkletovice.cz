@@ -1,4 +1,6 @@
 - implement actions and create sample article
+- archive
+- archive per selected category
 - improve page
 - create action info template and improve sample article
 - add plugins and create gallery templates
