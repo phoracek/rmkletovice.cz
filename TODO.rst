@@ -1,4 +1,4 @@
-- improve articles list and create sample article
+- implement actions and create sample article
 - improve page
 - create action info template and improve sample article
 - add plugins and create gallery templates
