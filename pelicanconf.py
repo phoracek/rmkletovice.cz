@@ -55,8 +55,13 @@ def key_equals(objects, key, param):
             filtered.append(o)
     return filtered
 
+import ast
+def parse_structure(string):
+    return ast.literal_eval(string)
+
 JINJA_FILTERS = {'archive_years': archive_years,
-                 'key_equals': key_equals}
+                 'key_equals': key_equals,
+                 'parse_structure': parse_structure}
 
 # Don't want any feeds
 FEED_ALL_ATOM = None
