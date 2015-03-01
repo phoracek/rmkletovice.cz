@@ -1,1 +1,54 @@
 {% extends "articles.html" %}
+
+{% block head %}
+  {{ super() }}
+  <style>
+    body {
+      margin-top: 0;
+    }
+    .jumbotron {
+      height: 300px;
+      background-color: rgb(51, 77, 92);                                  
+      background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE }}') no-repeat top center;
+      -webkit-background-size: cover;                                     
+      -moz-background-size: cover;                                        
+      -o-background-size: cover;                                          
+      background-size: cover;                                            
+      padding: 160px 100px 0 300px;
+      color: white;
+    }
+    .jumbotron .lead {
+      font-size: 25pt;
+      text-shadow: 2px 2px 2px #09354A;                                   
+      filter: dropshadow(color=#23759d, offx=6, offy=6);                  
+    }
+    @media only screen and (max-device-width: 1600px) {
+      .jumbotron {padding: 160px 100px 0 200px;}
+    }
+    @media only screen and (max-device-width: 1350px) {
+      .jumbotron {padding: 160px 100px 0 100px;}
+    }
+    @media only screen and (max-device-width: 800px) {
+      .jumbotron {padding: 100px 100px 0 40px;}
+    }
+    @media only screen and (max-device-width: 520px) {
+      .jumbotron {padding: 80px 100px 0 40px;}
+    }
+    @media only screen and (max-device-width: 430px) {
+      .jumbotron {
+        display: none;
+      }
+      body {
+        margin-top: 80px;
+      }
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <div class="jumbotron">
+    <p class="lead">{{ WELCOME_MESSAGE }}</p>
+  </div>
+  {{ super() }}
+  </div>
+{% endblock content %}

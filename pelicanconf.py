@@ -30,6 +30,7 @@ HTML5SHIV = 'https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'
 RESPOND = 'https://oss.maxcdn.com/respond/1.4.2/respond.min.js'
 
 # Content
+WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                   {'label': 'Letové akce', 'href': '', 'actions_list': 'letove-akce'},
                   {'label': 'Fotogalerie', 'href': ''},

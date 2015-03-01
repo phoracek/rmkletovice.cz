@@ -1,4 +1,3 @@
-- improve index
 - improve articles list and create sample article
 - improve page
 - create action info template and improve sample article
