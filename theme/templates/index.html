@@ -2,7 +2,7 @@
 
 {% block content %}
   <div class="container content">
-    {% for article in articles %}
+    {% for article in articles_page.object_list %}
     <article>
       <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
       {{ article.content }}
