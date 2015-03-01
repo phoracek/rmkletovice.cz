@@ -1,4 +1,3 @@
-- implement actions and create sample article
 - archive
 - archive per selected category
 - improve page

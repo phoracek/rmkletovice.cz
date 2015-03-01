@@ -1,4 +1,8 @@
 <div class="row">
+  {% if article.action %}
+    {% include 'include/action-detail.html' %}
+  {% endif %}
+
   <div class="col-xs-12">
   {{ article.content }}
   </div>
