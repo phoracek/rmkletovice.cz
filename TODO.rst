@@ -1,6 +1,3 @@
-- create base.html template and import bootstrap
-  - base.html with imports
-  - base.html template
 - improve index
 - improve articles list and create sample article
 - improve page

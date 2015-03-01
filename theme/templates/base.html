@@ -1,63 +1,105 @@
 <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
-<head>
-        {% block head %}
-        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-        <meta charset="utf-8" />
-        {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
-        {% endif %}
-        {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
-        {% endif %}
-        {% if FEED_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
-        {% endif %}
-        {% if FEED_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
-        {% endif %}
-        {% if CATEGORY_FEED_ATOM and category %}
-        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
-        {% endif %}
-        {% if CATEGORY_FEED_RSS and category %}
-        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
-        {% endif %}
-        {% if TAG_FEED_ATOM and tag %}
-        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
-        {% endif %}
-        {% if TAG_FEED_RSS and tag %}
-        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
-        {% endif %}
-        {% endblock head %}
-</head>
+  <head>
+    {% block head %}
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ DESCRIPTION }}">
+    <meta name="author" content="{{ AUTHOR }}">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
-        {% for title, link in MENUITEMS %}
-            <li><a href="{{ link }}">{{ title }}</a></li>
-        {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}
-          {% for p in PAGES %}
-            <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-          {% endfor %}
-        {% else %}
-          {% if DISPLAY_CATEGORIES_ON_MENU %}
-            {% for cat, null in categories %}
-              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+    <!-- Bootstrap core CSS -->
+    <link href="/{{ STATIC_DIR }}/{{ BOOTSTRAP_CSS }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/{{ STATIC_DIR }}/{{ MY_CSS }}" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="{{ HTML5SHIV }}"></script>
+      <script src="{{ RESPOND }}"></script>
+    <![endif]-->
+    {% endblock head %}
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="/{{ STATIC_DIR }}/{{ LOGO }}" class="pull-left" /> 
+          <a id="long-name" class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME }}</a>
+          <a id="short-name" class="navbar-brand" href="{{ SITEURL }}/">{{ SITENAME_SHORT }}</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            {% for link in NAVIGATION_BAR %}
+              <li><a href="{{ link.href }}">{{ link.label }}</a></li>
             {% endfor %}
-          {% endif %}
-        {% endif %}
-        </ul></nav><!-- /#menu -->
-        {% block content %}
-        {% endblock %}
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
-</body>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="text-muted" style="margin-top: 20px"><strong>Kontakt</strong></div>
+            {% for c in CONTACTS %}
+              <address>
+                <strong>{{ c.name }}</strong><br>
+                {% if c.info %}
+                  {{ c.info }}<br>
+                {% endif %}
+                {% if c.phone %}
+                  <abbr title="Telefon">Tel:</abbr> {{ c.phone }}<br />
+                {% endif %}
+                {% if c.mail %}
+                  <abbr title="E-mail">Mail:</abbr>
+                  {{ c.mail[0] }} <em>zavináč</em> {{ c.mail[1] }} <em>tečka</em> {{ c.mail[2] }}
+                {% endif %}
+              </address>
+            {% endfor %}
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="text-muted" style="margin-top: 20px"><strong>Archiv</strong></div>
+            <nav>
+              {% for y in dates|archive_years %}
+              <a href="">{{ y }}</a><br>
+              {% endfor %}
+            </nav>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="text-muted" style="margin-top: 20px"><strong>Navigace</strong></div>
+            <nav>
+              {% for link in NAVIGATION_BAR %}
+                <a href="{{ link.href }}">{{ link.label }}</a><br>
+                {% if link.actions_list %}
+                  <div style="margin-left: 12px">
+                  {% for y in dates|key_equals("category", link.actions_list)|archive_years %}
+                  <a href="">{{ y }}</a><br>
+                  {% endfor %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ JQUERY }}"></script>
+    <script src="/{{ STATIC_DIR }}/{{ BOOTSTRAP_JS }}"></script>
+  </body>
 </html>
