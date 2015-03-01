@@ -59,9 +59,15 @@ import ast
 def parse_structure(string):
     return ast.literal_eval(string)
 
+from datetime import datetime
+def parse_and_format_date(string):
+    new = datetime.strptime(string, '%Y-%m-%d').strftime('%-d. %-m. %Y')
+    return new
+
 JINJA_FILTERS = {'archive_years': archive_years,
                  'key_equals': key_equals,
-                 'parse_structure': parse_structure}
+                 'parse_structure': parse_structure,
+                 'parse_and_format_date': parse_and_format_date}
 
 # Don't want any feeds
 FEED_ALL_ATOM = None
