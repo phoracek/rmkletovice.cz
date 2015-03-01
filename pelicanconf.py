@@ -36,7 +36,7 @@ WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                   {'label': 'Letové akce', 'href': '/category/letove-akce.html', 'actions_list': 'letove-akce'},
                   {'label': 'Fotogalerie', 'href': ''},
-                  {'label': 'Historie', 'href': ''})
+                  {'label': 'Historie', 'href': '/pages/historie-klubu.html'})
 CONTACTS = ({'name': 'Jan Novák',
              'info': 'titul',
              'phone': 'XXX XXX XXX',
