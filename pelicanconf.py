@@ -13,7 +13,7 @@ DEFAULT_LANG = u'cs'
 
 DEFAULT_PAGINATION = 10
 
-DEFAULT_CATEGORY = 'ostatni'
+DEFAULT_CATEGORY = 'Ostatní'
 
 # Paths
 PATH = 'content'
