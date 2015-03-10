@@ -18,6 +18,11 @@ DEFAULT_CATEGORY = 'ostatni'
 # Paths
 PATH = 'content'
 
+# Archives
+ARCHIVE_DIR = 'archiv'
+ARCHIVE_YEARS = ('2011', '2010')
+YEAR_ARCHIVE_SAVE_AS = ARCHIVE_DIR + '/{date:%Y}/index.html'
+
 # Static files
 STATIC_DIR = 'theme'
 MY_CSS = 'css/style.css'
@@ -34,7 +39,8 @@ RESPOND = 'https://oss.maxcdn.com/respond/1.4.2/respond.min.js'
 # Content
 WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
-                  {'label': 'Letové akce', 'href': '/category/letove-akce.html', 'actions_list': 'letove-akce'},
+                  {'label': 'Letové akce', 'href': '/category/letove-akce.html',
+                        'actions_list': (('2010', ARCHIVE_DIR + '/letove-akce/2010'),)},
                   {'label': 'Fotogalerie', 'href': ''},
                   {'label': 'Historie', 'href': '/pages/historie-klubu.html'})
 CONTACTS = ({'name': 'Jan Novák',
@@ -43,13 +49,6 @@ CONTACTS = ({'name': 'Jan Novák',
              'mail': ('jan', 'seznam', 'cz')},)
 
 # Jinja filters
-def archive_years(dates):
-    years = set()
-    for d in dates:
-        year = d.date.strftime('%Y')
-        years.add(year)
-    return years
-
 def key_equals(objects, key, param):
     filtered = []
     for o in objects:
@@ -66,8 +65,7 @@ def parse_and_format_date(string):
     new = datetime.strptime(string, '%Y-%m-%d').strftime('%-d. %-m. %Y')
     return new
 
-JINJA_FILTERS = {'archive_years': archive_years,
-                 'key_equals': key_equals,
+JINJA_FILTERS = {'key_equals': key_equals,
                  'parse_structure': parse_structure,
                  'parse_and_format_date': parse_and_format_date}
 

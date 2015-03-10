@@ -74,8 +74,8 @@
           <div class="col-xs-6 col-sm-3">
             <div class="text-muted" style="margin-top: 20px"><strong>Archiv</strong></div>
             <nav>
-              {% for y in dates|archive_years %}
-              <a href="">{{ y }}</a><br>
+              {% for y in ARCHIVE_YEARS %}
+              <a href="{{ ARCHIVE_DIR }}/{{ y }}">{{ y }}</a><br>
               {% endfor %}
             </nav>
           </div>
@@ -86,8 +86,8 @@
                 <a href="{{ link.href }}">{{ link.label }}</a><br>
                 {% if link.actions_list %}
                   <div style="margin-left: 12px">
-                  {% for y in dates|key_equals("category", link.actions_list)|archive_years %}
-                  <a href="">{{ y }}</a><br>
+                  {% for label, href in link.actions_list %}
+                  <a href="{{ href }}">{{ label }}</a><br>
                   {% endfor %}
                   </div>
                 {% endif %}
