@@ -47,7 +47,7 @@ RESPOND = 'https://oss.maxcdn.com/respond/1.4.2/respond.min.js'
 WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                   {'label': 'Letové akce', 'href': '/category/letove-akce.html',
-                        'actions_list': (('2010', ARCHIVE_DIR + '/letove-akce/2010'),)},
+                        'actions_list': (('2010', '/' + ARCHIVE_DIR + '/letove-akce/2010'),)},
                   {'label': 'Fotogalerie', 'href': ''},
                   {'label': 'Historie', 'href': '/pages/historie-klubu.html'})
 CONTACTS = ({'name': 'Jan Novák',
