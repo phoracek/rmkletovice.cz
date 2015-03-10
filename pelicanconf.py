@@ -18,10 +18,17 @@ DEFAULT_CATEGORY = 'ostatni'
 # Paths
 PATH = 'content'
 
+# Plugins
+PLUGIN_PATHS = ('plugins',)
+PLUGINS = ('archives_per_category',)
+
 # Archives
 ARCHIVE_DIR = 'archiv'
 ARCHIVE_YEARS = ('2011', '2010')
 YEAR_ARCHIVE_SAVE_AS = ARCHIVE_DIR + '/{date:%Y}/index.html'
+YEAR_ARCHIVES_PER_CATEGORY_SAVE_AS = (ARCHIVE_DIR +
+                                      '/{category}/{date:%Y}/index.html')
+CATEGORIES_TO_ARCHIVE = ('letove-akce',)
 
 # Static files
 STATIC_DIR = 'theme'
