@@ -17,6 +17,15 @@ DEFAULT_CATEGORY = 'Ostatní'
 
 # Paths
 PATH = 'content'
+ARTICLE_URL = 'clanky/{category}/{slug}.html'
+ARTICLE_SAVE_AS = 'clanky/{category}/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+CATEGORY_URL = 'kategorie/{slug}.html'
+CATEGORY_SAVE_AS = 'kategorie/{slug}.html'
+CATEGORY_PAGINATION_URL = 'kategorie/{slug}-{page}.html'
+CATEGORY_PAGINATION_SAVE_AS = 'kategorie/{slug}-{page}.html'
+
 
 # Plugins
 PLUGIN_PATHS = ('plugins',)
@@ -46,7 +55,7 @@ RESPOND = 'https://oss.maxcdn.com/respond/1.4.2/respond.min.js'
 # Content
 WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
-                  {'label': 'Letové akce', 'href': '/category/letove-akce.html',
+                  {'label': 'Letové akce', 'href': '/kategorie/letove-akce.html',
                         'actions_list': (('2010', '/' + ARCHIVE_DIR + '/letove-akce/2010'),)},
                   {'label': 'Fotogalerie', 'href': ''},
                   {'label': 'Historie', 'href': '/pages/historie-klubu.html'})
