@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import datetime
+import ast
 
 AUTHOR = u'Petr Horáček'
 SITENAME = u'Raketomodelářský klub Letovice'
@@ -55,8 +57,11 @@ RESPOND = 'https://oss.maxcdn.com/respond/1.4.2/respond.min.js'
 # Content
 WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
-                  {'label': 'Letové akce', 'href': '/kategorie/letove-akce.html',
-                        'actions_list': (('2010', '/' + ARCHIVE_DIR + '/letove-akce/2010'),)},
+                  {'label': 'Letové akce',
+                   'href': '/kategorie/letove-akce.html',
+                   'actions_list': (
+                       ('2010', '/' + ARCHIVE_DIR + '/letove-akce/2010'),
+                   )},
                   {'label': 'Fotogalerie', 'href': 'zonerama'},
                   {'label': 'Historie', 'href': '/pages/historie-klubu.html'})
 CONTACTS = ({'name': 'Jiří Kašpar',
@@ -67,6 +72,7 @@ CONTACTS = ({'name': 'Jiří Kašpar',
              'info': 'administrátor',
              'mail': ('p.horacek94', 'gmail', 'com')})
 
+
 # Jinja filters
 def key_equals(objects, key, param):
     filtered = []
@@ -75,11 +81,11 @@ def key_equals(objects, key, param):
             filtered.append(o)
     return filtered
 
-import ast
+
 def parse_structure(string):
     return ast.literal_eval(string)
 
-from datetime import datetime
+
 def parse_and_format_date(string):
     new = datetime.strptime(string, '%Y-%m-%d').strftime('%-d. %-m. %Y')
     return new
