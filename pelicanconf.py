@@ -7,7 +7,7 @@ import ast
 AUTHOR = u'Petr Horáček'
 SITENAME = u'Raketomodelářský klub Letovice'
 SITENAME_SHORT = u'RMK Letovice'
-SITEURL = 'www.rmkletovice.cz'
+SITEURL = ''
 
 TIMEZONE = 'Europe/Prague'
 
