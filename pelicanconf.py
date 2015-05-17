@@ -5,9 +5,9 @@ from __future__ import unicode_literals
 AUTHOR = u'Petr Horáček'
 SITENAME = u'Raketomodelářský klub Letovice'
 SITENAME_SHORT = u'RMK Letovice'
-SITEURL = ''
+SITEURL = 'www.rmkletovice.cz'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Prague'
 
 DEFAULT_LANG = u'cs'
 
@@ -57,12 +57,15 @@ WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                   {'label': 'Letové akce', 'href': '/kategorie/letove-akce.html',
                         'actions_list': (('2010', '/' + ARCHIVE_DIR + '/letove-akce/2010'),)},
-                  {'label': 'Fotogalerie', 'href': ''},
+                  {'label': 'Fotogalerie', 'href': 'zonerama'},
                   {'label': 'Historie', 'href': '/pages/historie-klubu.html'})
-CONTACTS = ({'name': 'Jan Novák',
-             'info': 'titul',
+CONTACTS = ({'name': 'Jiří Kašpar',
+             'info': 'předseda klubu',
              'phone': 'XXX XXX XXX',
-             'mail': ('jan', 'seznam', 'cz')},)
+             'mail': ('jan', 'seznam', 'cz')},
+            {'name': 'Petr Horáček',
+             'info': 'administrátor',
+             'mail': ('p.horacek94', 'gmail', 'com')})
 
 # Jinja filters
 def key_equals(objects, key, param):
