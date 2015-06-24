@@ -35,7 +35,7 @@ PLUGINS = ('archives_per_category',)
 
 # Archives
 ARCHIVE_DIR = 'archiv'
-ARCHIVE_YEARS = ('2011', '2010')
+ARCHIVE_YEARS = range(2015, 2010, -1)
 YEAR_ARCHIVE_SAVE_AS = ARCHIVE_DIR + '/{date:%Y}/index.html'
 YEAR_ARCHIVES_PER_CATEGORY_SAVE_AS = (ARCHIVE_DIR +
                                       '/{category}/{date:%Y}/index.html')
@@ -59,15 +59,16 @@ WELCOME_MESSAGE = 'Vítejte na stránkách Raketomodelářského klubu Letovice'
 NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                   {'label': 'Letové akce',
                    'href': '/kategorie/letove-akce.html',
-                   'actions_list': (
-                       ('2010', '/' + ARCHIVE_DIR + '/letove-akce/2010'),
-                   )},
+                   'actions_list': [
+                       (year, '/%s/letove-akce/%d' % (ARCHIVE_DIR, year))
+                       for year in range(2015, 2010, -1)
+                   ]},
                   {'label': 'Fotogalerie', 'href': 'zonerama'},
                   {'label': 'Historie', 'href': '/historie-klubu.html'})
 CONTACTS = ({'name': 'Jiří Kašpar',
              'info': 'předseda klubu',
-             'phone': 'XXX XXX XXX',
-             'mail': ('jan', 'seznam', 'cz')},
+             'phone': '606 803 431',
+             'mail': ('kasparj45', 'seznam', 'cz')},
             {'name': 'Petr Horáček',
              'info': 'administrátor',
              'mail': ('p.horacek94', 'gmail', 'com')})
