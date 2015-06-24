@@ -63,7 +63,7 @@ NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                        ('2010', '/' + ARCHIVE_DIR + '/letove-akce/2010'),
                    )},
                   {'label': 'Fotogalerie', 'href': 'zonerama'},
-                  {'label': 'Historie', 'href': '/pages/historie-klubu.html'})
+                  {'label': 'Historie', 'href': '/historie-klubu.html'})
 CONTACTS = ({'name': 'Jiří Kašpar',
              'info': 'předseda klubu',
              'phone': 'XXX XXX XXX',
