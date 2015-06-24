@@ -66,7 +66,9 @@ NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                        (year, '/%s/letove-akce/%d' % (ARCHIVE_DIR, year))
                        for year in range(2015, 2010, -1)
                    ]},
-                  {'label': 'Fotogalerie', 'href': 'zonerama'},
+                  {'label': 'Fotogalerie',
+                   'href': 'https://www.zonerama.com/rmkletovice',
+                   'target': '_blank'},
                   {'label': 'Historie', 'href': '/historie-klubu.html'})
 CONTACTS = ({'name': 'Jiří Kašpar',
              'info': 'předseda klubu',
