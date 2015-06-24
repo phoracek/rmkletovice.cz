@@ -40,7 +40,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             {% for link in NAVIGATION_BAR %}
-              <li><a href="{{ link.href }}">{{ link.label }}</a></li>
+              <li><a {% if link.target %}target="{{ link.target }}"{% endif %}href="{{ link.href }}">{{ link.label }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -83,7 +83,7 @@
             <div class="text-muted" style="margin-top: 20px"><strong>Navigace</strong></div>
             <nav>
               {% for link in NAVIGATION_BAR %}
-                <a href="{{ link.href }}">{{ link.label }}</a><br>
+                <a {% if link.target %}target="{{ link.target }}"{% endif %}href="{{ link.href }}">{{ link.label }}</a><br />
                 {% if link.actions_list %}
                   <div style="margin-left: 12px">
                   {% for label, href in link.actions_list %}
