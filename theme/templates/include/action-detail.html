@@ -18,7 +18,7 @@
   </table>
   {% if action.gallery %}
   <div style="margin-top: 10px">
-      <a href="{{ action.gallery }}" style="font-size: 13pt"><strong>Fotogalerie akce</strong></a>
+      <a href="{{ action.gallery }}" target="_blank" style="font-size: 13pt"><strong>Fotogalerie akce</strong></a>
   </div>
   {% endif %}
 </div>
@@ -39,3 +39,10 @@
     {% endfor %}
   </table>
 </div>
+{% if action.gallery_thumbnail %}
+<div class="col-sm-12 text-center">
+  <a href="{{ action.gallery }}" target="_blank">
+    <img src="https://www.zonerama.com/photos/{{ action.gallery_thumbnail }}_450x300_16.jpg" alt="Galerie" class="img-rounded" />
+  </a>
+</div>
+{% endif %}
