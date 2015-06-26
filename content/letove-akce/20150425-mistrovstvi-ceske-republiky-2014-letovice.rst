@@ -1,7 +1,6 @@
 Mistrovství České republiky 2014, Letovice
 ##########################################
 
-:date: 2014-04-25
 :category: Letové akce
 :action: {
          'date': '25. 4. 2015',

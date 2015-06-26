@@ -20,6 +20,8 @@ DEFAULT_PAGINATION = 10
 
 DEFAULT_CATEGORY = 'Ostatní'
 
+FILENAME_METADATA = '(?P<date>\d{4}\d{2}\d{2})-(?P<slug>.*)'
+
 # Paths
 PATH = 'content'
 ARTICLE_URL = 'clanky/{category}/{slug}.html'

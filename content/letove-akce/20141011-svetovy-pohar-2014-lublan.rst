@@ -1,7 +1,6 @@
 Světový pohár 2014, Lublaň
 ##########################
 
-:date: 2014-04-25
 :category: Letové akce
 :action: {
          'date': '1. 1. 1911',
