@@ -4,7 +4,7 @@ Mistrovství České republiky 2014, Letovice
 :date: 2014-04-25
 :category: Letové akce
 :action: {
-         'date': '2014-4-25',
+         'date': '25. 4. 2015',
          'place': 'Letiště Letovice',
          'map': 'link to map',
          'documents':

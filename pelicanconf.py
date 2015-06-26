@@ -92,13 +92,8 @@ def parse_structure(string):
     return ast.literal_eval(string)
 
 
-def parse_and_format_date(string):
-    new = datetime.strptime(string, '%Y-%m-%d').strftime('%-d. %-m. %Y')
-    return new
-
 JINJA_FILTERS = {'key_equals': key_equals,
-                 'parse_structure': parse_structure,
-                 'parse_and_format_date': parse_and_format_date}
+                 'parse_structure': parse_structure}
 
 # Don't want any feeds
 FEED_ALL_ATOM = None
