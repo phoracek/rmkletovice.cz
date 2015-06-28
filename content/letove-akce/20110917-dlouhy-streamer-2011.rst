@@ -11,7 +11,7 @@ Dlouhý streamer 2011
          'filename': 'dlouhy-streamer-2011-vysledkova-listina',
          'formats': ['doc', 'pdf']}],
          'gallery': 'https://www.zonerama.com/rmkletovice/Album/766692',
-         'gallery_thumbnail': '29872319',
-         'gallery_thumbnail_w': '450',
-         'gallery_thumbnail_h': '350'
          }
+
+.. image:: https://www.zonerama.com/photos/29872319_450x350_16.jpg
+   :class: img-rounded
