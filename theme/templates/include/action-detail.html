@@ -40,9 +40,9 @@
   </table>
 </div>
 {% if action.gallery_thumbnail %}
-<div class="col-sm-12 text-center">
+<div class="col-sm-12 text-center" style="margin-bottom: 20px">
   <a href="{{ action.gallery }}" target="_blank">
-    <img src="https://www.zonerama.com/photos/{{ action.gallery_thumbnail }}_450x300_16.jpg" alt="Galerie" class="img-rounded" />
+      <img src="https://www.zonerama.com/photos/{{ action.gallery_thumbnail }}_{{ action.gallery_thumbnail_w }}x{{ action.gallery_thumbnail_h }}_16.jpg" alt="Galerie" class="img-rounded" style="max-width: 100%" />
   </a>
 </div>
 {% endif %}
