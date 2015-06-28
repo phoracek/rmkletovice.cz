@@ -33,7 +33,6 @@ CATEGORY_SAVE_AS = 'kategorie/{slug}.html'
 CATEGORY_PAGINATION_URL = 'kategorie/{slug}-{page}.html'
 CATEGORY_PAGINATION_SAVE_AS = 'kategorie/{slug}-{page}.html'
 
-
 # Plugins
 PLUGIN_PATHS = ('plugins',)
 PLUGINS = ('archives_per_category',)
@@ -47,6 +46,7 @@ YEAR_ARCHIVES_PER_CATEGORY_SAVE_AS = (ARCHIVE_DIR +
 CATEGORIES_TO_ARCHIVE = ('letove-akce',)
 
 # Static files
+STATIC_PATHS = ['docs']
 STATIC_DIR = 'theme'
 MY_CSS = 'css/style.css'
 BOOTSTRAP_CSS = 'css/bootstrap.min.css'
