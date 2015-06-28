@@ -15,3 +15,4 @@ Dlouhý streamer 2011
 
 .. image:: https://www.zonerama.com/photos/29872319_450x350_16.jpg
    :class: img-rounded
+   :alt: Dlouhý streamer 2011
