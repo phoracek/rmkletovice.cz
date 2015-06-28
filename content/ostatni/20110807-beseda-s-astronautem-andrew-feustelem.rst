@@ -13,3 +13,4 @@ astronautem Andrew Feustelem, které se zúčastnili i dva členové klubu.
 
 .. image:: https://www.zonerama.com/photos/29871817_450x500_16.jpg
    :class: img-rounded
+   :alt: Beseda s Andrew Feustelem
