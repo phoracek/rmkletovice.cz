@@ -5,7 +5,7 @@ Kosmické raketoplány včera, dnes a zítra
 :action: {
          'date': '16. 2. 2012',
          'place': 'KD Letovice',
-         'gallery': 'https://www.zonerama.com/rmkletovice/Album/766677',
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/766703',
          }
 
 RMK Letovice ve spolupráci s DDM Letovice (`www.ddmletovice.net
