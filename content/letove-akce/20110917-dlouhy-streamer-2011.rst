@@ -10,7 +10,7 @@ Dlouhý streamer 2011
          [{'name': 'Výsledkova listina',
          'filename': 'dlouhy-streamer-2011-vysledkova-listina',
          'formats': ['doc', 'pdf']}],
-         'gallery': 'https://www.zonerama.com/rmkletovice/Album/766692',
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/766692'
          }
 
 .. image:: https://www.zonerama.com/photos/29872319_450x350_16.jpg
