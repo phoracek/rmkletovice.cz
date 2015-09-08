@@ -5,4 +5,4 @@ PF 2015
 
 .. image:: https://www.zonerama.com/photos/34312997_450x450_16.jpg
    :class: img-rounded
-   :alt: Bohumil Pazour
+   :alt: PF 2015

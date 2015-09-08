@@ -12,4 +12,4 @@ Za RMK Letovice Jiří Kašpar
 
 .. image:: https://www.zonerama.com/photos/30339324_450x350_16.jpg
    :class: img-rounded
-   :alt: Bohumil Pazour
+   :alt: Jaroslav Cihla
