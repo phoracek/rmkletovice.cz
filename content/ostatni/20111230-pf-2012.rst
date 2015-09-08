@@ -1,8 +1,0 @@
-PF 2012
-#######
-
-:category: Ostatní
-
-.. image:: https://www.zonerama.com/photos/29954266_450x338_16.jpg
-   :class: img-rounded
-   :alt: PF 2012
