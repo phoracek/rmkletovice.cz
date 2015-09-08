@@ -1,6 +1,8 @@
 Historie klubu
 ##############
 
+`Historické fotografie <https://www.zonerama.com/rmkletovice/Album/899440>`_
+
 Raketové modelářství u nás vzniklo jako nejmladší odvětví modelářské odbornosti
 v šedesátých letech po zahájení výzkumných letů do vesmíru, zejména pak po
 úspěšném prvním letu člověka do vesmíru ruského kosmonauta Jurie Alexejeviče
