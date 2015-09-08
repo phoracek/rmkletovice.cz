@@ -9,7 +9,6 @@
     .jumbotron {
       height: 300px;
       background-color: rgb(51, 77, 92);                                  
-      background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE }}') no-repeat top center;
       -webkit-background-size: cover;                                     
       -moz-background-size: cover;                                        
       -o-background-size: cover;                                          
@@ -22,25 +21,46 @@
       text-shadow: 2px 2px 2px #09354A;                                   
       filter: dropshadow(color=#23759d, offx=6, offy=6);                  
     }
+    /*@media only screen and (max-device-width: 40000px) {
+      .jumbotron {display: none;}
+      body {margin-top: 80px;}
+    }*/
+    @media only screen and (max-device-width: 4576px) {
+      .jumbotron {background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE_MAX }}') no-repeat top center;}
+    }
+    @media only screen and (max-device-width: 2560px) {
+      .jumbotron {background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE_2560 }}') no-repeat top center;}
+    }
+    @media only screen and (max-device-width: 1920px) {
+      .jumbotron {background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE_1920 }}') no-repeat top center;}
+    }
     @media only screen and (max-device-width: 1600px) {
       .jumbotron {padding: 160px 100px 0 200px;}
     }
-    @media only screen and (max-device-width: 1350px) {
-      .jumbotron {padding: 160px 100px 0 100px;}
+    @media only screen and (max-device-width: 1366px) {
+      .jumbotron {
+        padding: 160px 100px 0 100px;
+        background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE_1366 }}') no-repeat top center;
+      }
+    }
+    @media only screen and (max-device-width: 1280px) {
+      .jumbotron {background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE_1280 }}') no-repeat top center;}
+    }
+    @media only screen and (max-device-width: 1024px) {
+      .jumbotron {background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE_1024 }}') no-repeat top center;}
     }
     @media only screen and (max-device-width: 800px) {
-      .jumbotron {padding: 100px 100px 0 40px;}
+      .jumbotron {
+        padding: 100px 100px 0 40px;
+        background: url('/{{ STATIC_DIR }}/{{ JUMBOTRON_IMAGE_800 }}') no-repeat top center;
+      }
     }
     @media only screen and (max-device-width: 520px) {
       .jumbotron {padding: 80px 100px 0 40px;}
     }
     @media only screen and (max-device-width: 430px) {
-      .jumbotron {
-        display: none;
-      }
-      body {
-        margin-top: 80px;
-      }
+      .jumbotron {display: none;}
+      body {margin-top: 80px;}
     }
   </style>
 {% endblock %}
