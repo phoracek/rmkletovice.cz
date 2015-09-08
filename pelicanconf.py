@@ -38,7 +38,7 @@ PLUGINS = ('archives_per_category',)
 
 # Archives
 ARCHIVE_DIR = 'archiv'
-ARCHIVE_YEARS = range(2015, 2010, -1)
+ARCHIVE_YEARS = range(2015, 2014, -1)
 YEAR_ARCHIVE_SAVE_AS = ARCHIVE_DIR + '/{date:%Y}/index.html'
 YEAR_ARCHIVES_PER_CATEGORY_SAVE_AS = (ARCHIVE_DIR +
                                       '/{category}/{date:%Y}/index.html')
@@ -65,7 +65,7 @@ NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                    'href': '/kategorie/letove-akce.html',
                    'actions_list': [
                        (year, '/%s/letove-akce/%d' % (ARCHIVE_DIR, year))
-                       for year in range(2015, 2010, -1)
+                       for year in range(2015, 2014, -1)
                    ]},
                   {'label': 'Fotogalerie',
                    'href': 'https://www.zonerama.com/rmkletovice',
