@@ -12,7 +12,7 @@ Dlouhý streamer 2015
          'formats': ['ods', 'pdf']},
          {'name': 'Propozice',
          'filename': 'dlouhy-streamer-2015-propozice',
-         'formats': ['ods', 'pdf']}],
+         'formats': ['doc', 'pdf']}],
          'gallery': 'https://www.zonerama.com/rmkletovice/Album/898921'
          }
 
