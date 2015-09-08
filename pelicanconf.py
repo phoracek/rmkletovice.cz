@@ -76,7 +76,7 @@ CONTACTS = ({'name': 'Jiří Kašpar',
              'phone': '606 803 431',
              'mail': ('kasparj45', 'seznam', 'cz')},
             {'name': 'Petr Horáček',
-             'info': 'administrátor',
+             'info': 'správce webu',
              'mail': ('p.horacek94', 'gmail', 'com')})
 
 
