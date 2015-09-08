@@ -1,5 +1,5 @@
-40 let RMK Letovice
-###################
+40 let RMK Letovice, výstava a beseda
+#####################################
 
 :category: Ostatní
 :action: {
@@ -14,3 +14,11 @@ Raketomodelářského klubu Letostroj Letovice.
 .. image:: https://www.zonerama.com/photos/26526773_450x350_16.jpg
    :class: img-rounded
    :alt: 40 let RMK Letovice
+
+.. image:: https://www.zonerama.com/photos/34312119_450x637_16.jpg
+   :class: img-rounded
+   :alt: Pozvánka na besedu
+
+.. image:: https://www.zonerama.com/photos/34312124_450x637_16.jpg
+   :class: img-rounded
+   :alt: Pozvánka na výstavu
