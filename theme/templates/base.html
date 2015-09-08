@@ -62,10 +62,10 @@
                   {{ c.info }}<br>
                 {% endif %}
                 {% if c.phone %}
-                  <abbr title="Telefon">Tel:</abbr> {{ c.phone }}<br />
+                  <span>Tel:</span> {{ c.phone }}<br />
                 {% endif %}
                 {% if c.mail %}
-                  <abbr title="E-mail">Mail:</abbr>
+                  <span>Mail:</span>
                   {{ c.mail[0] }} <em>zavináč</em> {{ c.mail[1] }}.{{ c.mail[2] }}
                 {% endif %}
               </address>
