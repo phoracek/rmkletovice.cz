@@ -9,6 +9,6 @@ věku 75 let.
 
 Jiří Kašpar, předseda RMK Letovice
 
-.. image:: https://www.zonerama.com/photos/42952789_450x580_16.jpg
+.. image:: https://www.zonerama.com/photos/43935610_450x580_16.jpg
    :class: img-rounded
    :alt: Antonín Bruštík
