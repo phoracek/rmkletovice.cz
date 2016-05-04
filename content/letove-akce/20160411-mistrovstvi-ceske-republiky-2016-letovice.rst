@@ -7,7 +7,10 @@ Mistrovství České republiky 2016, Letovice
          'place': 'Letiště Letovice',
          'map': 'http://mapy.cz/zakladni?x=16.5897570&y=49.5464864&z=15&source=base&id=1703618&q=letiště letovice',
          'documents':
-         [{'name': 'Propozice',
+         [{'name': 'Výsledkova listina',
+         'filename': 'mistrovstvi-ceske-republiky-2016-letovice-vysledkova-listina',
+         'formats': ['ods', 'pdf']},
+         {'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2016-letovice-propozice',
          'formats': ['doc', 'pdf']}],
          }
