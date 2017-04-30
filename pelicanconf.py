@@ -71,7 +71,7 @@ NAVIGATION_BAR = ({'label': 'Úvod', 'href': '/'},
                    'href': '/kategorie/letove-akce.html',
                    'actions_list': [
                        (year, '/%s/letove-akce/%d' % (ARCHIVE_DIR, year))
-                       for year in range(2016, 2014, -1)
+                       for year in range(2017, 2014, -1)
                    ]},
                   {'label': 'Fotogalerie',
                    'href': 'https://www.zonerama.com/rmkletovice',
