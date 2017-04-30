@@ -9,5 +9,8 @@ Mistrovství České republiky 2017, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2017-letovice-propozice',
-         'formats': ['doc', 'pdf']}],
+         'formats': ['doc', 'pdf']},
+         {'name': 'Výsledková listina',
+         'filename': 'mistrovstvi-ceske-republiky-2017-letovice-vysledkova-listina',
+         'formats': ['ods', 'pdf']}],
          }
