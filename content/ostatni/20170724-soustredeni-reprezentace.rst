@@ -7,7 +7,7 @@ Ve třetím týdnu měsíce července 2017 se uskutečnilo na Letišti Leteckéh
 Letovice soustředění reprezentace České republiky v raketovém modelářství,
 jako příprava na Mistrovství Evropy v Polsku. Reprezentanti ze čtyř největších
 klubů v ČR ladili formu zejména v kategoriích raketoplánů S4 a S8. Za RMK
-Letovice je v reprezentaci Milan Jučka. Všem přejeme na ME hodně úspěchů!
+Letovice je v reprezentaci Milan Kučka. Všem přejeme na ME hodně úspěchů!
 
 Za bezchybné zázemí děkujeme LK Letovice! 
 
