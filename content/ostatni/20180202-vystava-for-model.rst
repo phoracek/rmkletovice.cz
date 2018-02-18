@@ -3,7 +3,7 @@ Výstava For Model
 
 :category: Ostatní
 :action: {
-         'date': '2.–4.. 3. 2018',
+         'date': '2.–4. 3. 2018',
          'place': 'Výstaviště Flora Olomouc',
          }
 
