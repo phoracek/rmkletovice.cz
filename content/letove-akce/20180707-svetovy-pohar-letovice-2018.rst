@@ -11,3 +11,9 @@ Světový pohár Letovice 2018
          'filename': 'svetovy-pohar-letovice-2018',
          'formats': ['pdf']}]
          }
+
+Za video děkujeme Pavlu Marčákovi.
+
+.. raw:: html
+
+    <iframe type="text/html" style="display: block; margin: 0 auto;" width="640" height="360" src="https://www.youtube.com/embed/JXoicnpuyQc?autoplay=0&origin=http://rmkletovice.cz" frameborder="0"></iframe>

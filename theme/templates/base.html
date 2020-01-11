@@ -79,7 +79,6 @@
               {% for y in ARCHIVE_YEARS %}
               <a href="/{{ ARCHIVE_DIR }}/{{ y }}">{{ y }}</a><br>
               {% endfor %}
-              <a href="http://stary.rmkletovice.cz">Starý web</a><br>
             </nav>
           </div>
           <div class="col-xs-6 col-sm-3">
@@ -87,20 +86,13 @@
             <nav>
               {% for link in NAVIGATION_BAR %}
                 <a {% if link.target %}target="{{ link.target }}"{% endif %}href="{{ link.href }}">{{ link.label }}</a><br />
-                {% if link.actions_list %}
-                  <div style="margin-left: 12px">
-                  {% for label, href in link.actions_list %}
-                  <a href="{{ href }}">{{ label }}</a><br>
-                  {% endfor %}
-                  </div>
-                {% endif %}
               {% endfor %}
             </nav>
           </div>
         </div>
       </div>
     </footer>
-    
+
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{ JQUERY }}"></script>
     <script src="/{{ STATIC_DIR }}/{{ BOOTSTRAP_JS }}"></script>
