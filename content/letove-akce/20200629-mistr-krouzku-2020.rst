@@ -7,7 +7,10 @@ Mistr kroužku, 2020
          'place': 'Letiště Letovice',
          'map': 'http://mapy.cz/zakladni?x=16.5897570&y=49.5464864&z=15&source=base&id=1703618&q=letiště letovice',
          'documents':
-         [{'name': 'Výsledková listina',
+         [{'name': 'Propozice',
+         'filename': 'mistr-krouzku-2020-propozice',
+         'formats': ['pdf', 'doc']},
+         {'name': 'Výsledková listina',
          'filename': 'mistr-krouzku-2020-vysledkova-listina',
          'formats': ['pdf', 'doc']}],
          'gallery': 'https://www.zonerama.com/rmkletovice/Album/6481660'
