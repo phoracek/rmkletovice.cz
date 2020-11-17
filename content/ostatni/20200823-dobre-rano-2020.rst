@@ -1,0 +1,20 @@
+Dobré ráno o raketovém modelářství
+##################################
+
+:category: Ostatní
+:action: {
+         'date': '20. 8. 2020',
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/6769502'
+         }
+
+`Záznam úvodu <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784636>`_
+
+`Záznam rozhovoru 1 <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784643>`_
+
+`Záznam rozhovoru 2 <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784650>`_
+
+`Záznam rozhovoru 3 <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784660>`_
+
+.. image:: /docs/dobre-rano-2020.jpg
+   :class: img-rounded
+   :alt: Dobre rano
