@@ -31,8 +31,8 @@ CATEGORY_PAGINATION_URL = 'kategorie/{slug}-{page}.html'
 CATEGORY_PAGINATION_SAVE_AS = 'kategorie/{slug}-{page}.html'
 
 # Plugins
-PLUGIN_PATHS = ('plugins',)
-PLUGINS = ('archives_per_category',)
+#PLUGIN_PATHS = ('plugins',)
+#PLUGINS = ('archives_per_category',)
 
 # Archives
 ARCHIVE_DIR = 'archiv'
