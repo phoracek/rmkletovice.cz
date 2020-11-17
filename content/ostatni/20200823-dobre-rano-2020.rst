@@ -7,13 +7,12 @@ Dobré ráno o raketovém modelářství
          'gallery': 'https://www.zonerama.com/rmkletovice/Album/6769502'
          }
 
-`Záznam úvodu <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784636>`_
+.. raw:: html
 
-`Záznam rozhovoru 1 <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784643>`_
-
-`Záznam rozhovoru 2 <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784650>`_
-
-`Záznam rozhovoru 3 <https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784660>`_
+   <p><a style="font-size: 13pt" href="https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784636"><strong>Záznam rozhovoru 1</strong></a></p>
+   <p><a style="font-size: 13pt" href="https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784643"><strong>Záznam rozhovoru 2</strong></a></p>
+   <p><a style="font-size: 13pt" href="https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784650"><strong>Záznam rozhovoru 3</strong></a></p>
+   <p><a style="font-size: 13pt" href="https://www.ceskatelevize.cz/porady/10435049455-dobre-rano/320291310020081/video/784660"><strong>Záznam rozhovoru 4</strong></a></p>
 
 .. image:: /docs/dobre-rano-2020.jpg
    :class: img-rounded
