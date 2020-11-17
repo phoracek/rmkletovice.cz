@@ -3,8 +3,6 @@
 from __future__ import unicode_literals
 import ast
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 AUTHOR = u'Petr Horáček'
 SITENAME = u'Raketomodelářský klub Letovice'
