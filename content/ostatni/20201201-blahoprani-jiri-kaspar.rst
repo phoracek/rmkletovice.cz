@@ -3,7 +3,7 @@ Blahopřání
 
 :category: Ostatní
 
-V měsíci prosinci oslavuje své významné životní jubileum 75 let přededa RMK
+V měsíci prosinci oslavuje své významné životní jubileum 75 let předseda RMK
 Letovice, pan Jiří Kašpar. Všechno nejlepší do dalších let přejí členové klubu a
 přátelé modeláři.
 
