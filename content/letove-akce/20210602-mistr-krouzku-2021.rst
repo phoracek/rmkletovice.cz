@@ -1,0 +1,16 @@
+Mistr kroužku a klubová soutěž 2021
+###################################
+
+:category: Letové akce
+:action: {
+         'date': '19. 6. 2021',
+         'place': 'Letiště Letovice',
+         'map': 'http://mapy.cz/zakladni?x=16.5897570&y=49.5464864&z=15&source=base&id=1703618&q=letiště letovice',
+         'documents':
+         [{'name': 'Mistr kroužku, propozice',
+         'filename': 'mistr-krouzku-2021-propozice',
+         'formats': ['odt']},
+         {'name': 'Klubová soutěž, propozice',
+         'filename': 'klubova-soutez-2021-propozice',
+         'formats': ['odt']}]
+         }
