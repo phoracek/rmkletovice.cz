@@ -9,8 +9,8 @@ Mistr kroužku a klubová soutěž 2021
          'documents':
          [{'name': 'Mistr kroužku, propozice',
          'filename': 'mistr-krouzku-2021-propozice',
-         'formats': ['odt']},
+         'formats': ['odt', 'doc']},
          {'name': 'Klubová soutěž, propozice',
          'filename': 'klubova-soutez-2021-propozice',
-         'formats': ['odt']}]
+         'formats': ['odt', 'doc']}]
          }
