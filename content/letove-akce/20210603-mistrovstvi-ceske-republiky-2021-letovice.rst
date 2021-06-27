@@ -9,5 +9,8 @@ Mistrovství České republiky 2021, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2021-letovice-propozice',
-         'formats': ['doc']}]
+         'formats': ['doc']},
+         {'name': 'Výsledková listina',
+         'filename': 'mistrovstvi-ceske-republiky-2021-letovice-vysledkova-listina',
+         'formats': ['pdf', 'ods']}]
          }
