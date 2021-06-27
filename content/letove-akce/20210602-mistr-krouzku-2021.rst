@@ -14,3 +14,7 @@ Mistr kroužku a klubová soutěž 2021
          'filename': 'klubova-soutez-2021-propozice',
          'formats': ['odt', 'doc']}]
          }
+
+.. raw:: html
+
+    <iframe type="text/html" style="display: block; margin: 0 auto;" width="640" height="360" src="https://www.youtube.com/embed/vy6Bf-XnJuk?autoplay=0&origin=http://rmkletovice.cz" frameborder="0"></iframe>
