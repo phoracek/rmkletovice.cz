@@ -9,6 +9,13 @@ Dlouhý streamer 2021
          'documents':
          [{'name': 'Propozice',
          'filename': 'dlouhy-streamer-2021-propozice',
+         'formats': ['pdf', 'odt']},
+         {'name': 'Výsledková listina',
+         'filename': 'dlouhy-streamer-2021-vysledkova-listina',
          'formats': ['pdf', 'odt']}],
          'gallery': 'https://www.zonerama.com/rmkletovice/Album/7892187'
          }
+
+.. raw:: html
+
+    <iframe type="text/html" style="display: block; margin: 0 auto;" width="640" height="360" src="https://www.youtube.com/embed/xK_eOMAB8I0?autoplay=0&origin=http://rmkletovice.cz" frameborder="0"></iframe>
