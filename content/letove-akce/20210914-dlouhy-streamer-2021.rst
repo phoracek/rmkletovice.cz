@@ -9,5 +9,6 @@ Dlouhý streamer 2021
          'documents':
          [{'name': 'Propozice',
          'filename': 'dlouhy-streamer-2021-propozice',
-         'formats': ['pdf', 'odt']}]
+         'formats': ['pdf', 'odt']}],
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/7892187'
          }
