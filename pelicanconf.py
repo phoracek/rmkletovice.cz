@@ -36,7 +36,7 @@ CATEGORY_PAGINATION_SAVE_AS = 'kategorie/{slug}-{page}.html'
 
 # Archives
 ARCHIVE_DIR = 'archiv'
-ARCHIVE_YEARS = range(2020, 2014, -1)
+ARCHIVE_YEARS = range(2021, 2014, -1)
 YEAR_ARCHIVE_SAVE_AS = ARCHIVE_DIR + '/{date:%Y}/index.html'
 YEAR_ARCHIVES_PER_CATEGORY_SAVE_AS = (ARCHIVE_DIR +
                                       '/{category}/{date:%Y}/index.html')
