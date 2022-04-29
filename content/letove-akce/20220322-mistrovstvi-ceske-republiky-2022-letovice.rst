@@ -14,3 +14,7 @@ Mistrovství České republiky 2022, Letovice
          'filename': 'mistrovstvi-ceske-republiky-2022-duben-letovice-vysledkova-listina',
          'formats': ['pdf', 'ods']}]
          }
+
+.. raw:: html
+
+    <iframe type="text/html" style="display: block; margin: 0 auto;" width="640" height="360" src="https://www.youtube.com/embed/u7XYJ64QJiY?autoplay=0&origin=http://rmkletovice.cz" frameborder="0"></iframe>
