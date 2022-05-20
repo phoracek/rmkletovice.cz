@@ -10,4 +10,5 @@ Oblastní přebor žáků 2022, Letovice
          [{'name': 'Propozice',
          'filename': 'oblastni-prebor-zaku-2022-letovice-propozice',
          'formats': ['pdf', 'odt']}],
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/8423503'
          }
