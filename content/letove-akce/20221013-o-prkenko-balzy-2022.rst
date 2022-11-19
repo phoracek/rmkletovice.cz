@@ -12,4 +12,6 @@ O prkénko balzy 2022
          'formats': ['odt', 'pdf']}]
          }
 
-Poslední hádanka letošní sezony je vyřešená! Prkénko balzy získal Milan Kučka a Mistrem kroužku raketových modelářů při SVČ Letokruh za školní rok 2021-2022 se stal Martin Fadrný. Vítězům gratulujeme! Jirka Kašpar
+Poslední hádanka letošní sezony je vyřešená! Prkénko balzy získal Milan Kučka a Mistrem kroužku raketových modelářů při SVČ Letokruh za školní rok 2021-2022 se stal Martin Fadrný. Vítězům gratulujeme!
+
+Jirka Kašpar
