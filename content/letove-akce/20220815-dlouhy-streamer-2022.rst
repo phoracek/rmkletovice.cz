@@ -15,5 +15,14 @@ Dlouhý streamer 2022
          'formats': ['pdf', 'odt']},
          {'name': 'Pravidla S7',
          'filename': 'dlouhy-streamer-2022-pravidla-s7',
-         'formats': ['pdf', 'doc']}]
+         'formats': ['pdf', 'doc']},
+         {'name': 'Výsledková listina',
+         'filename': 'dlouhy-streamer-2022-vysledkova-listina',
+         'formats': ['pdf', 'odt']}],
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/9171822'
          }
+
+
+.. raw:: html
+
+    <iframe type="text/html" style="display: block; margin: 0 auto;" width="640" height="360" src="https://www.youtube.com/embed/UfGLAKHGcds?autoplay=0&origin=http://rmkletovice.cz" frameborder="0"></iframe>
