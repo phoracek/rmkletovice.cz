@@ -30,13 +30,7 @@
       <td>
         <div style="text-align: right">
           {% if doc.filename %}
-            {% if 'pdf' in doc.formats %}
-              <a target="blank" href="https://docs.google.com/viewer?url={{ SITEURL }}/docs/{{ doc.filename }}.pdf" style="color: green">Prohlédnout</a> /
-            {% endif %}
             Stáhnout:{% for format in doc.formats %}&nbsp;<a href="/docs/{{ doc.filename }}.{{ format }}">{{ format|upper }}</a>{% endfor %}
-          {% endif %}
-          {% if doc.link %}
-            <a target="blank" href="{{ doc.link }}" style="color: green">Prohlédnout</a>
           {% endif %}
         </div>
       </td>
