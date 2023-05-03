@@ -9,5 +9,14 @@ Mistrovství České republiky duben 2023, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2023-duben-letovice-propozice',
-         'formats': ['pdf', 'odt']}]
+         'formats': ['pdf', 'odt']},
+         {'name': 'Výsledková listina',
+         'filename': 'mistrovstvi-ceske-republiky-2023-duben-letovice-vysledkova-listina',
+         'formats': ['pdf', 'ods']}],
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/9730438'
          }
+		
+.. image:: /docs/mcrletovice2023duben.jpg
+   :class: img-rounded
+   :alt: Roman Marek
+   :width: 650px
