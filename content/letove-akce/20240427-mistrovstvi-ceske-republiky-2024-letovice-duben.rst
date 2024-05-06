@@ -9,5 +9,8 @@ Mistrovství České republiky duben 2024, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2024-duben-letovice-propozice',
+         'formats': ['pdf', 'odt']},
+         {'name': 'Výsledková listina',
+         'filename': 'mistrovstvi-ceske-republiky-2024-duben-letovice-vysledkova-listina',
          'formats': ['pdf', 'odt']}]
          }
