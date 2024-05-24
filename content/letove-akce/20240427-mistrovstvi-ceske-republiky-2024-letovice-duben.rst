@@ -12,5 +12,6 @@ Mistrovství České republiky duben 2024, Letovice
          'formats': ['pdf', 'odt']},
          {'name': 'Výsledková listina',
          'filename': 'mistrovstvi-ceske-republiky-2024-duben-letovice-vysledkova-listina',
-         'formats': ['pdf', 'odt']}]
+         'formats': ['pdf', 'odt']}],
+         'gallery': 'https://eu.zonerama.com/rmkletovice/Album/11504710'
          }

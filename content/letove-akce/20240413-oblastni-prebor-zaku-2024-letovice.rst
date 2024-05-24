@@ -13,4 +13,5 @@ Oblastní přebor žáků 2024, Letovice
          {'name': 'Výsledková listina',
          'filename': 'oblastni-prebor-zaku-2024-letovice-vysledkova-listina',
          'formats': ['ods', 'pdf']}],
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/11504701'
          }
