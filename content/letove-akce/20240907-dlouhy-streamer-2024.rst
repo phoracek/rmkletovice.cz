@@ -15,5 +15,9 @@ Dlouhý streamer 2024
          'formats': ['pdf', 'doc']},
          {'name': 'Pravidla S7',
          'filename': 'dlouhy-streamer-2024-pravidla-polomakety',
-         'formats': ['pdf', 'doc']}]
+         'formats': ['pdf', 'doc']},
+         {'name': 'Výsledková listina',
+         'filename': 'dlouhy-streamer-2024-vysledkova-listina',
+         'formats': ['pdf', 'ods']}],
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/12005702'
          }
