@@ -1,0 +1,21 @@
+O prkénko balzy 2024
+####################
+
+:category: Letové akce
+:action: {
+         'date': '27. 10. 2024',
+         'place': 'Letiště Letovice',
+         'map': 'http://mapy.cz/zakladni?x=16.5897570&y=49.5464864&z=15&source=base&id=1703618&q=letiště letovice',
+         'documents':
+         [{'name': 'Propozice',
+         'filename': 'o-prkenko-balzy-2024-propozice',
+         'formats': ['odt', 'pdf']},
+         {'name': 'Výsledková listina',
+         'filename': 'o-prkenko-balzy-2024-vysledkova-listina',
+         'formats': ['odt', 'pdf']}]
+         }
+
+.. image:: /docs/prkenko-balzy-2024.jpg
+   :class: img-rounded
+   :alt: O prkenko balzy
+   :width: 550px
