@@ -1,0 +1,11 @@
+Blahopřání
+##########
+
+:category: Ostatní
+
+Přátelé! Je to neuvěřitelné, ale v těchto dnech oslavuje své pětašedesátiny (ač na to nevypadá) náš dlouholetý člen  a mezinárodní rozhodčí, Milan Sopoušek! Velká a upřímná gratulace s přáním všeho dobrého a hodně zdraví! Za přátele a členy RMK Letovice přeje Jiří Kašpar
+
+.. image:: /docs/sopousek-65.jpg
+   :class: img-rounded
+   :alt: Milan Sopousek
+   :width: 450px
