@@ -1,0 +1,11 @@
+PF 2025
+#######
+
+:category: Ostatní
+
+.. image:: /docs/pf2025.jpg
+   :class: img-rounded
+   :alt: PF 2025
+   :width: 650px
+
+Photo: ©ESA
