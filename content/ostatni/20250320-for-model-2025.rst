@@ -1,0 +1,14 @@
+FOR MODEL Olomouc 2025
+######################
+
+:category: Ostatní
+:action: {
+         'gallery': 'https://www.zonerama.com/rmkletovice/Album/13110431'
+         }
+
+Přátelé! Zítra začíná výstava v Olomouci FOR MODEL kde také vystavujeme modely raket. Chtěl bych touto cestou poděkovat Milanu Sopouškovi a Pavlovi Marčákovi , kteří se podíleli na instalaci naší expozice! Posílám pár fotek z přípravy! Jirka Kašpar
+
+.. image:: /docs/for-model-2025.png
+   :class: img-rounded
+   :alt: FOR MODEL 2025
+   :width: 550px
