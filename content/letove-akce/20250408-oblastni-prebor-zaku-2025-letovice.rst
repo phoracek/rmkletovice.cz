@@ -9,5 +9,5 @@ Oblastní přebor žáků 2025, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'oblastni-prebor-zaku-2025-letovice-propozice',
-         'formats': ['odt', 'pdf']}
+         'formats': ['odt', 'pdf']}]
          }
