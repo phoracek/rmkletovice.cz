@@ -9,5 +9,5 @@ Mistrovství České republiky duben 2025, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2025-duben-letovice-propozice',
-         'formats': ['pdf', 'odt']}
+         'formats': ['pdf', 'odt']}]
          }
