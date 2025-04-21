@@ -1,5 +1,5 @@
-Mistrovství České republiky duben 2025, Letovice
-################################################
+Zrušeno: Mistrovství České republiky duben 2025, Letovice
+#########################################################
 
 :category: Letové akce
 :action: {
@@ -11,3 +11,5 @@ Mistrovství České republiky duben 2025, Letovice
          'filename': 'mistrovstvi-ceske-republiky-2025-duben-letovice-propozice',
          'formats': ['pdf', 'odt']}]
          }
+
+Vážení přátelé! Z důvodů velké nemocnosti v klubu jsme nuceni zrušit soutěž MČR v Letovicích 26. 4. 2025. Tímto se všem omlouváme! Jiří Kašpar
