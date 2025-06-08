@@ -1,0 +1,36 @@
+50 let RMK Letovice
+###################
+
+:category: Ostatní
+
+Dovolujeme si Vás pozvat na zahájení výstavy modelů u příležitosti 50. výročí založení
+Raketomodelářského klubu Letostroj Letovice p.s. které se uskuteční 14.6. 2025 v 16
+hodin v Muzeu města Letovice Brněnská ulice 3!
+
+Vchod je ze Zámecké ulice. Parkoviště
+u jídelny na Brněnské ulici!
+
+Mgr. Blanka Veselá,
+kurátorka výstavy
+
+Jiří Kašpar,
+předseda RMK Letovice
+
+.. image:: /docs/muzeum-mesta-letovice.png
+   :class: img-rounded
+   :alt: Muzeum města Letovice
+   :width: 450px
+
+**Program**
+
+#. Přivítání hostů 16.00 hod
+#. Historie RMK Letovice
+#. Hudební vystoupení
+#. Zahájení výstavy
+#. Prohlídka – autogramiáda Ing. Vladimír Remek
+#. Závěr
+
+.. image:: /docs/50-let-rmk.jpeg
+   :class: img-rounded
+   :alt: 50 let RMK
+   :width: 450px
