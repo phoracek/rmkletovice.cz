@@ -9,5 +9,8 @@ Mistrovství České republiky září 2025, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2025-zari-letovice-propozice',
-         'formats': ['pdf', 'odt']}]
+         'formats': ['pdf', 'odt']},
+         {'name': 'Výsledková listina',
+         'filename': 'mistrovstvi-ceske-republiky-2025-zari-letovice-vysledkova-listina',
+         'formats': ['pdf', 'ods']}]
          }

@@ -15,5 +15,8 @@ Dlouhý streamer 2025
          'formats': ['pdf', 'doc']},
          {'name': 'Pravidla S7',
          'filename': 'dlouhy-streamer-2025-pravidla-polomakety',
-         'formats': ['pdf', 'doc']}]
+         'formats': ['pdf', 'doc']},
+         {'name': 'Výsledková listina',
+         'filename': 'dlouhy-streamer-2025-vysledkova-listina',
+         'formats': ['pdf', 'ods']}]
          }
