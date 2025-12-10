@@ -1,0 +1,11 @@
+PF 2026
+#######
+
+:category: Ostatní
+
+.. image:: /docs/pf2026.jpg
+   :class: img-rounded
+   :alt: PF 2026
+   :width: 650px
+
+Fotografie: `Steve Jurvetson - Flickr, CC BY 2.0 <https://commons.wikimedia.org/w/index.php?curid=153992086>`__
