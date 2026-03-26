@@ -82,6 +82,12 @@ tools/odt2pdf.sh content/docs/*.odt
 
 When an event has ODT documents (e.g. propozice), run this script to produce the PDF before adding the article that references it.
 
+`tools/odt2text.py` — extracts plain text from an ODT file. Useful for reading event dates or other details without opening LibreOffice.
+
+```bash
+tools/odt2text.py content/docs/file.odt
+```
+
 ## Scope of Work
 
 Claude Code is used **only to create new content** — never to adjust themes or page configuration. New articles should follow the existing `.rst` format and naming conventions above.
