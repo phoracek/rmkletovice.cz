@@ -1,0 +1,11 @@
+Kalendář akcí 2025
+##################
+
+:category: Letové akce
+:action: {
+         'documents':
+         [{'name': 'Kalendář akcí 2025',
+         'filename': 'kalendar-akci-2025',
+         'formats': ['xlsx']}],
+         }
+
