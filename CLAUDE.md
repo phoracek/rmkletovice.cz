@@ -88,6 +88,10 @@ When an event has ODT documents (e.g. propozice), run this script to produce the
 tools/odt2text.py content/docs/file.odt
 ```
 
+## Git
+
+Always sign commits with `git commit -s` (adds a `Signed-off-by` trailer).
+
 ## Scope of Work
 
 Claude Code is used **only to create new content** — never to adjust themes or page configuration. New articles should follow the existing `.rst` format and naming conventions above.
