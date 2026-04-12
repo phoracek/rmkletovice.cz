@@ -9,6 +9,9 @@ Oblastní přebor žáků 2026, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'oblastni-prebor-zaku-2026-letovice-propozice',
-         'formats': ['odt', 'pdf']}]
+         'formats': ['odt', 'pdf']},
+         {'name': 'Výsledková listina',
+         'filename': 'oblastni-prebor-zaku-2026-letovice-vysledkova-listina',
+         'formats': ['ods', 'pdf']}]
          }
 
