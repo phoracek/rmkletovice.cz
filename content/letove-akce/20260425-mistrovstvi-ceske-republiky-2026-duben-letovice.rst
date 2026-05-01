@@ -9,6 +9,9 @@ Mistrovství České republiky duben 2026, Letovice
          'documents':
          [{'name': 'Propozice',
          'filename': 'mistrovstvi-ceske-republiky-2026-duben-letovice-propozice',
-         'formats': ['pdf', 'odt']}]
+         'formats': ['pdf', 'odt']},
+         {'name': 'Výsledková listina',
+         'filename': 'mistrovstvi-ceske-republiky-2026-duben-letovice-vysledkova-listina',
+         'formats': ['pdf', 'ods']}]
          }
 
