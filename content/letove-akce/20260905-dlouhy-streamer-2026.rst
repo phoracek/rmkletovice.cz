@@ -7,7 +7,10 @@ Dlouhý streamer 2026
          'place': 'Letiště Letovice',
          'map': 'http://mapy.cz/zakladni?x=16.5897570&y=49.5464864&z=15&source=base&id=1703618&q=letiště letovice',
          'documents':
-         [{'name': 'Propozice',
+         [{'name': 'Výsledková listina',
+         'filename': 'dlouhy-streamer-2026-vysledkova-listina',
+         'formats': ['pdf', 'ods']},
+         {'name': 'Propozice',
          'filename': 'dlouhy-streamer-2026-propozice',
          'formats': ['pdf', 'odt']},
          {'name': 'Pravidla S6',
